@@ -1,0 +1,37 @@
+.stMain{
+    /* background: rgb(240, 242, 246); */
+    background: rgb(235, 231, 245);;
+}
+.stAppHeader{
+    background: rgb(240, 242, 246);
+}
+.stSidebar{
+    background-color: rgb(187 171 229);
+    background: rgb(187 171 229);;
+}
+.stMetric{
+    /* border: solid 1px #060!important; */
+    background: #fafafa;
+    text-align: center;
+    padding: 15px;
+}
+label[data-testid="stMetricLabel"]{
+    grid-template-columns:unset
+}
+div[data-testid="stMarkdownContainer"]{
+    margin-bottom: 10px;
+}
+div[data-testid="stMarkdownContainer"] p{
+    font-size:16px;
+    margin-top: 10px;
+}
+/* .react-aria-ComboBox{
+    background: #fafafa;
+    border: solid 1px #fff;
+}
+.react-aria-ComboBox input{
+    border: solid 1px #fff;
+} */
+.re-title{
+    background: rgb(187 171 229);;
+}

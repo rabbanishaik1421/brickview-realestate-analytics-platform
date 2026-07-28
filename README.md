@@ -1,2 +1,10 @@
-# brickview-realestate-analytics-platform
-The real estate market is vast and dynamic, with properties being listed, sold, and evaluated every day. Buyers, sellers, and agents often lack accessible tools to monitor trends, pricing, and sales performance. 
+#Data Cleaning
+
+1. Missing Values
+2. Duplicate Rows
+3. Wrong Data Types
+4. Invalid Values
+5. Extra Spaces
+6. Date Format
+7. Numeric Format
+8. Boolean Format
