@@ -1,4 +1,4 @@
-Project Title    BrickView: Real Estate Analytics Platform
+<h4>Project Title    BrickView: Real Estate Analytics Platform</h4>
 Skills take away From This Project    Python, SQL, Streamlit, Data Analysis
 Domain    Real Estate, Property Analytics, Urban Development, Location Intelligence
 
