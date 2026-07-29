@@ -1,6 +1,6 @@
-Project Title	BrickView: Real Estate Analytics Platform
-Skills take away From This Project	Python, SQL, Streamlit, Data Analysis
-Domain	Real Estate, Property Analytics, Urban Development, Location Intelligence
+<h2>Project Title	BrickView: Real Estate Analytics Platform</h2>
+<h4>Skills take away From This Project	Python, SQL, Streamlit, Data Analysis
+Domain	Real Estate, Property Analytics, Urban Development, Location Intelligence</h4>
 
 Problem Statement 
 The real estate market is vast and dynamic, with properties being listed, sold, and evaluated every day. Buyers, sellers, and agents often lack accessible tools to monitor trends, pricing, and sales performance. This project aims to build a Real Estate Listings Dashboard that uses SQL and Streamlit to:
