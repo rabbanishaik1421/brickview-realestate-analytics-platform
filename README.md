@@ -1,76 +1,287 @@
-Project Title    BrickView: Real Estate Analytics Platform
-Skills take away From This Project    Python, SQL, Streamlit, Data Analysis
-Domain    Real Estate, Property Analytics, Urban Development, Location Intelligence
+# 🏠 BrickView Real Estate Analytics Dashboard
 
-Problem Statement 
-The real estate market is vast and dynamic, with properties being listed, sold, and evaluated every day. Buyers, sellers, and agents often lack accessible tools to monitor trends, pricing, and sales performance. This project aims to build a Real Estate Listings Dashboard that uses SQL and Streamlit to:
-•    Analyze property listings, agent performance, and sales patterns
-•    Provide insights into pricing, time on market, and property types
-•    Enable filtering by location, property type, price, and sales agent
-•    Display interactive visuals like maps and bar charts for better understanding. 
+## 📌 Project Overview
 
-Business Use Cases
-•    Assist buyers and investors in making data-informed decisions
-•    Help agents track sales performance and property types in demand
-•    Understand pricing trends across regions and neighborhoods
-•    Monitor time-on-market trends to improve sales strategies
+BrickView is a Real Estate Analytics Dashboard developed using **Python**, **Streamlit**, **SQLite**, **Pandas**, and **Matplotlib**. The application provides comprehensive insights into property listings, sales, buyers, and agents through interactive dashboards, visualizations, SQL analytics, and complete CRUD operations.
 
-Approach
-1. Data Preparation
-Use the provided datasets:
-•    Read raw JSON files using Python
-•    Flatten nested JSON structures (if any)
-•    Standardize date, numeric, and boolean fields
-•    Ensure date formats and price/area values are consistent
+The project enables users to explore real estate data, perform advanced filtering, visualize trends, and manage records efficiently.
 
-2. Database Creation
-•    Store data in SQL using normalized relationships
-•    Create views and indexes for performance
+---
 
-3. Data Analysis with SQL Queries
-Use SQL to generate insights (detailed questions below)
+# 🎯 Project Objectives
 
-4. Application Development with Streamlit
-Create a user-friendly dashboard that allows:
-•    Filtering based on city, property type, agent, and price range
-•    Viewing maps of listings and bar/pie charts
-•    Displaying SQL query outputs as tables and visuals
+- Analyze real estate listings and sales data.
+- Provide interactive dashboards with business insights.
+- Perform advanced SQL-based analytics.
+- Implement complete CRUD operations.
+- Build interactive visualizations.
+- Demonstrate modular programming and code reusability.
 
-5. Deployment
-Deploy on a local or cloud server to allow real-time access by stakeholders
+---
 
-Data Flow and Architecture
-Data Storage:
-•    SQL database with listings, agents, and sales etc. tables
+# 🛠️ Technology Stack
 
-Processing Pipeline:
-•    Use SQL for aggregation, joins, and trend analysis
+| Technology | Purpose |
+|------------|---------|
+| Python | Backend Programming |
+| Streamlit | Dashboard Development |
+| SQLite | Database |
+| Pandas | Data Analysis |
+| Matplotlib | Data Visualization |
+| SQL | Data Retrieval & Analysis |
+| HTML/CSS | Custom UI Design |
 
-Deployment:
-•    Streamlit UI for real-time insights and visualizations
+---
 
-Dataset:
-1.    Listings - listings_final_expanded.json
-2.    Property_attributes- property_attributes_final_expanded.json
-3.    Agents - agents_cleaned.json
-4.    Sales - sales_cleaned.csv
-5.    buyers  - buyers_cleaned.json 
+# 📂 Project Structure
 
-Dataset Explanation:
-1️⃣ listings – Property Listings
-Core property-level information
-Column    Description
-Listing_ID    Unique ID for the property listing
-City    City where the property is located
-Property_Type    Apartment, Villa, Condo, etc.
-Price    Listed price of the property
-Area_sqft    Property size in square feet
-Agent_ID    Foreign key to agents
-Listed_Date    Date property was listed
+```
+BrickView/
+│
+├── main.py
+├── database.py
+├── utils.py
+├── dashboard.py
+├── filters.py
+├── visualizations.py
+├── crud.py
+├── sql_queries.py
+├── common.py
+├── style.css
+├── brickviewdb.db
+├── README.md
+└── assets/
+```
 
-Latitude    
-Longitude    
+---
 
-2️⃣ property_attributes – Property Attributes
-One-to-one with listings
-Column    Description
+# 🗄️ Database Tables
+
+The project contains the following tables:
+
+- Listings
+- Sales
+- Buyers
+- Agents
+- Property Attributes
+
+---
+
+# ✨ Features
+
+## 1. Dashboard
+
+Displays Key Performance Indicators (KPIs):
+
+- Total Listings
+- Total Sales
+- Total Buyers
+- Total Agents
+- Total Revenue
+
+---
+
+## 2. Filters & Explorer
+
+Interactive filters include:
+
+- City
+- Property Type
+- Price Range
+- Agent
+- Listed Date
+- Sale Date
+
+Displays filtered property listings dynamically.
+
+---
+
+## 3. Analytics & Visualizations
+
+The dashboard includes:
+
+- Property Listings Map
+- Average Price by City (Bar Chart)
+- Property Type Distribution (Pie Chart)
+- Monthly Sales Trend (Line Chart)
+- Interactive Data Tables
+
+---
+
+## 4. CRUD Operations
+
+Implemented CRUD functionality for all database tables.
+
+### Listings
+
+- View Listings
+- Add Listing
+- Update Listing
+- Delete Listing
+
+### Sales
+
+- View Sales
+- Add Sale
+- Update Sale
+- Delete Sale
+
+### Buyers
+
+- View Buyers
+- Add Buyer
+- Update Buyer
+- Delete Buyer
+
+### Agents
+
+- View Agents
+- Add Agent
+- Update Agent
+- Delete Agent
+
+### Property Attributes
+
+- View Property Attributes
+- Add Property Attributes
+- Update Property Attributes
+- Delete Property Attributes
+
+---
+
+## 5. SQL Analytics
+
+Implemented **30 business SQL queries**, including:
+
+- Highest Revenue Cities
+- Average Property Price
+- Sales by Property Type
+- Loan Uptake Rate
+- Monthly Sales Trend
+- Fastest Selling Properties
+- Average Days on Market
+- Buyer Insights
+- Agent Performance
+- Sale-to-List Price Ratio
+
+All query results are displayed in an interactive table.
+
+---
+
+# 📊 Visualizations
+
+- Scatter Plot
+- Bar Chart
+- Pie Chart
+- Line Chart
+- Interactive Map
+- Data Tables
+
+---
+
+# 💡 Business Insights
+
+The dashboard helps answer questions such as:
+
+- Which city has the highest property prices?
+- Which property type sells the fastest?
+- What are the monthly sales trends?
+- Which agents generate the highest sales?
+- Which cities have the highest loan uptake?
+- How does metro distance affect property sales?
+
+---
+
+# 🔄 Code Reusability (Modular Programming)
+
+The application follows a modular architecture:
+
+- **database.py** – Database connection
+- **utils.py** – Reusable helper functions
+- **dashboard.py** – Dashboard page
+- **filters.py** – Filter logic
+- **visualizations.py** – Charts
+- **crud.py** – CRUD operations
+- **sql_queries.py** – SQL analytics
+- **common.py** – Shared UI components
+
+This improves:
+
+- Code readability
+- Maintainability
+- Reusability
+- Scalability
+
+---
+
+# 🚀 Installation
+
+## Clone the Repository
+
+```bash
+git clone https://github.com/yourusername/BrickView.git
+```
+
+---
+
+## Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## Run the Application
+
+```bash
+streamlit run main.py
+```
+
+---
+
+# 📷 Dashboard Modules
+
+- Introduction
+- Filters & Explorer
+- Visualizations
+- CRUD Operations
+- SQL Query Explorer
+
+---
+
+# 📈 Future Enhancements
+
+- User Authentication
+- Export Reports (PDF/Excel)
+- Interactive Map using Plotly
+- Power BI Integration
+- Machine Learning Price Prediction
+- Real-Time API Integration
+
+---
+
+# 👨‍💻 Author
+
+**Shaik Rabbani**
+
+Assistant Professor | Senior Software Engineer
+
+AI & Full Stack Development Enthusiast
+
+---
+
+# 📄 License
+
+This project is developed for educational and analytical purposes.
+
+---
+
+# 🙏 Acknowledgements
+
+- GUVI AI/ML Bootcamp
+- Streamlit
+- Pandas
+- SQLite
+- Matplotlib
+
