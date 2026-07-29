@@ -168,7 +168,7 @@ All query results are displayed in an interactive table.
 
 ---
 
-# 📊 Visualizations
+# Visualizations
 
 - Scatter Plot
 - Bar Chart
@@ -261,7 +261,7 @@ streamlit run main.py
 
 ---
 
-# 👨Author
+# Author
 
 **Shaik Rabbani**
 
