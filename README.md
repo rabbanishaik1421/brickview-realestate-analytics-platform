@@ -148,17 +148,18 @@ Loan_Amount	Loan amount
 10.	How are properties distributed across price buckets?
 
 ⏱️ Sales & Market Performance
+
 11.	What is the average days on market by city?
-12.	Which property types sell the fastest?
-13.	What percentage of properties are sold above listing price?
-14.	What is the sale-to-list price ratio by city?
-15.	Which listings took more than 90 days to sell?
-16.	How does metro distance affect time on market?
-17.	What is the monthly sales trend?
-18.	Which properties are currently unsold?
+13.	Which property types sell the fastest?
+14.	What percentage of properties are sold above listing price?
+15.	What is the sale-to-list price ratio by city?
+16.	Which listings took more than 90 days to sell?
+17.	How does metro distance affect time on market?
+18.	What is the monthly sales trend?
+19.	Which properties are currently unsold?
 
 🧑‍💼 Agent Performance
-19.	Which agents have closed the most sales?
+19. Which agents have closed the most sales?
 20.	Who are the top agents by total sales revenue?
 21.	Which agents close deals fastest?
 22.	Does experience correlate with deals closed?
