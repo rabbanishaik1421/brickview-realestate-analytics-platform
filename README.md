@@ -1,6 +1,6 @@
-# 🏠 BrickView Real Estate Analytics Dashboard
+# BrickView Real Estate Analytics Dashboard
 
-## 📌 Project Overview
+## Project Overview
 
 BrickView is a Real Estate Analytics Dashboard developed using **Python**, **Streamlit**, **SQLite**, **Pandas**, and **Matplotlib**. The application provides comprehensive insights into property listings, sales, buyers, and agents through interactive dashboards, visualizations, SQL analytics, and complete CRUD operations.
 
@@ -8,7 +8,7 @@ The project enables users to explore real estate data, perform advanced filterin
 
 ---
 
-# 🎯 Project Objectives
+# Project Objectives
 
 - Analyze real estate listings and sales data.
 - Provide interactive dashboards with business insights.
@@ -19,7 +19,7 @@ The project enables users to explore real estate data, perform advanced filterin
 
 ---
 
-# 🛠️ Technology Stack
+# Technology Stack
 
 | Technology | Purpose |
 |------------|---------|
@@ -33,7 +33,7 @@ The project enables users to explore real estate data, perform advanced filterin
 
 ---
 
-# 📂 Project Structure
+# Project Structure
 
 ```
 BrickView/
@@ -55,7 +55,7 @@ BrickView/
 
 ---
 
-# 🗄️ Database Tables
+# Database Tables
 
 The project contains the following tables:
 
@@ -67,7 +67,7 @@ The project contains the following tables:
 
 ---
 
-# ✨ Features
+# Features
 
 ## 1. Dashboard
 
@@ -179,7 +179,7 @@ All query results are displayed in an interactive table.
 
 ---
 
-# 💡 Business Insights
+# Business Insights
 
 The dashboard helps answer questions such as:
 
@@ -192,7 +192,7 @@ The dashboard helps answer questions such as:
 
 ---
 
-# 🔄 Code Reusability (Modular Programming)
+# Code Reusability (Modular Programming)
 
 The application follows a modular architecture:
 
@@ -214,12 +214,12 @@ This improves:
 
 ---
 
-# 🚀 Installation
+# Installation
 
 ## Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/BrickView.git
+git clone https://github.com/rabbanishaik1421/brickview-realestate-analytics-platform.git
 ```
 
 ---
@@ -240,7 +240,7 @@ streamlit run main.py
 
 ---
 
-# 📷 Dashboard Modules
+# Dashboard Modules
 
 - Introduction
 - Filters & Explorer
@@ -250,7 +250,7 @@ streamlit run main.py
 
 ---
 
-# 📈 Future Enhancements
+# Future Enhancements
 
 - User Authentication
 - Export Reports (PDF/Excel)
@@ -261,7 +261,7 @@ streamlit run main.py
 
 ---
 
-# 👨‍💻 Author
+# 👨Author
 
 **Shaik Rabbani**
 
@@ -271,13 +271,13 @@ AI & Full Stack Development Enthusiast
 
 ---
 
-# 📄 License
+# License
 
 This project is developed for educational and analytical purposes.
 
 ---
 
-# 🙏 Acknowledgements
+# Acknowledgements
 
 - GUVI AI/ML Bootcamp
 - Streamlit
