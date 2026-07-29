@@ -2,60 +2,76 @@
 <h4>Skills take away From This Project	Python, SQL, Streamlit, Data Analysis
 Domain	Real Estate, Property Analytics, Urban Development, Location Intelligence</h4>
 
-Problem Statement 
+<h4>Problem Statement</h4> 
 The real estate market is vast and dynamic, with properties being listed, sold, and evaluated every day. Buyers, sellers, and agents often lack accessible tools to monitor trends, pricing, and sales performance. This project aims to build a Real Estate Listings Dashboard that uses SQL and Streamlit to:
-•	Analyze property listings, agent performance, and sales patterns
-•	Provide insights into pricing, time on market, and property types
-•	Enable filtering by location, property type, price, and sales agent
-•	Display interactive visuals like maps and bar charts for better understanding. 
+<ul>
+<li>Analyze property listings, agent performance, and sales patterns</li>
+<li>Provide insights into pricing, time on market, and property types</li>
+<li>Enable filtering by location, property type, price, and sales agent</li>
+<li>Display interactive visuals like maps and bar charts for better understanding.</li> 
+</ul>
 
-Business Use Cases
-•	Assist buyers and investors in making data-informed decisions
-•	Help agents track sales performance and property types in demand
-•	Understand pricing trends across regions and neighborhoods
-•	Monitor time-on-market trends to improve sales strategies
+<h4>Business Use Cases</h4>
+<ul>
+<li>Assist buyers and investors in making data-informed decisions</li>
+<li>Help agents track sales performance and property types in demand</li>
+<li>Understand pricing trends across regions and neighborhoods</li>
+<li>Monitor time-on-market trends to improve sales strategies</li>
+</ul>
 
 Approach
 1. Data Preparation
 Use the provided datasets:
-•	Read raw JSON files using Python
-•	Flatten nested JSON structures (if any)
-•	Standardize date, numeric, and boolean fields
-•	Ensure date formats and price/area values are consistent
+<ul>
+<li>Read raw JSON files using Python</li>
+<li>Flatten nested JSON structures (if any)</li>
+<li>Standardize date, numeric, and boolean fields</li>
+<li>Ensure date formats and price/area values are consistent</li>
+</ul>
 
-2. Database Creation
-•	Store data in SQL using normalized relationships
-•	Create views and indexes for performance
+3. Database Creation
+<ul>
+<li>Store data in SQL using normalized relationships</li>
+<li>Create views and indexes for performance</li>
+</ul>
 
-3. Data Analysis with SQL Queries
-Use SQL to generate insights (detailed questions below)
+4. Data Analysis with SQL Queries
+<ul>
+<li> Use SQL to generate insights (detailed questions below)</li>
+</ul>
+5. Application Development with Streamlit
+<ul>
+<li>Create a user-friendly dashboard that allows:</li>
+<li>Filtering based on city, property type, agent, and price range</li>
+<li>Viewing maps of listings and bar/pie charts</li>
+<li>Displaying SQL query outputs as tables and visuals</li>
+</ul>
 
-4. Application Development with Streamlit
-Create a user-friendly dashboard that allows:
-•	Filtering based on city, property type, agent, and price range
-•	Viewing maps of listings and bar/pie charts
-•	Displaying SQL query outputs as tables and visuals
-
-5. Deployment
-Deploy on a local or cloud server to allow real-time access by stakeholders
-
+6. Deployment
+<ul>
+<li>Deploy on a local or cloud server to allow real-time access by stakeholders</li>
+</ul>
 Data Flow and Architecture
 Data Storage:
-•	SQL database with listings, agents, and sales etc. tables
-
+<ul>
+<li>SQL database with listings, agents, and sales etc. tables</li>
+</ul>
 Processing Pipeline:
-•	Use SQL for aggregation, joins, and trend analysis
-
+<ul>
+<li>Use SQL for aggregation, joins, and trend analysis</li>
+</ul>
 Deployment:
-•	Streamlit UI for real-time insights and visualizations
-
+<ul>
+<li>Streamlit UI for real-time insights and visualizations</li>
+</ul>
 Dataset:
-1.	Listings - listings_final_expanded.json
-2.	Property_attributes- property_attributes_final_expanded.json
-3.	Agents - agents_cleaned.json
-4.	Sales - sales_cleaned.csv
-5.	buyers  - buyers_cleaned.json 
-
+<ol>
+<li>Listings - listings_final_expanded.json</li>
+<li>Property_attributes- property_attributes_final_expanded.json</li>
+<li>Agents - agents_cleaned.json</li>
+<li>Sales - sales_cleaned.csv</li>
+<li>buyers  - buyers_cleaned.json </li>
+</ol>
 Dataset Explanation:
 1️⃣ listings – Property Listings
 Core property-level information
