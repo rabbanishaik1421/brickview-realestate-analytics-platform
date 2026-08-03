@@ -50,7 +50,7 @@ BrickView/
 ├── style.css
 ├── brickviewdb.db
 ├── README.md
-└── assets/
+
 ```
 
 ---
@@ -284,3 +284,4 @@ This project is developed for educational and analytical purposes.
 - Pandas
 - SQLite
 - Matplotlib
+
