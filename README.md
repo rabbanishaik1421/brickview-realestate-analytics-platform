@@ -50,7 +50,7 @@ BrickView/
 ├── style.css
 ├── brickviewdb.db
 ├── README.md
-└── assets/
+
 ```
 
 ---
