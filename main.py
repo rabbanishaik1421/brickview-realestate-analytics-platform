@@ -63,63 +63,17 @@ if menu == "Introduction":
     show_dashboard()
 
 # Filters & Explorer #
-elif menu == "Filters & Explorer":
+if menu == "Filters & Explorer":
     showfilter()
 
 # VISUALIZATION #
-elif menu == "Visualization":
+if menu == "Visualization":
     show_visualization()
 
 # Crud Operations #
-elif menu == "Crud Operations":
+if menu == "Crud Operations":
     show_crudoperations()
 
 # SQL QUERIES #
-elif menu == "SQL Queries":
+if menu == "SQL Queries":
     show_sqlqueries()
-    
-else:
-    st.title="BrickView Dasboard"
-    st.write="Welcome to BrickView Analytics Dashboard"
-    
-    st.markdown(
-            """
-        <style>
-        div[data-testid="stMarkdownContainer"]{
-            margin-bottom:30px!important;
-        }
-        .stMain{
-            background:#060!important;
-        }
-        .re-title{
-            text-align:center;
-            margin-bottom:15px;
-        }
-        </style>
-        <div class="re-title">
-            <h1>🏠</h1>
-            <h3>BrickView Real Estate</h3>
-        </div>
-        """, unsafe_allow_html=True
-        )
-    
-    col1, col2, col3, col4, col5 = st.columns(5)
-    
-    with col1:
-        st.metric("🏠 Total Listings", totalListings)
-    
-    with col2:
-        st.metric("💰 Total Sales", totalSales)
-    
-    with col3:
-        st.metric("🧑‍💼 Total Agents", totalAgents)
-    
-    with col4:
-        st.metric("👥 Total Buyers", totalBuyers)
-    
-    with col5:
-        st.metric("💵 Total Revenue", totalRevenue)
-    
-    st.subheader("Introduction")
-    st.subheader("Listings")
-    st.dataframe(listings)
