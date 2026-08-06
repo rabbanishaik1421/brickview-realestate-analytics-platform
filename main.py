@@ -3,6 +3,7 @@ import streamlit as st
 from database import get_connection
 from utils import run_query
 from common import page_header
+from common import load_css
 from dashboard import show_dashboard
 from filters import showfilter
 from visualization import show_visualization
@@ -15,13 +16,14 @@ st.set_page_config(
     layout="wide"
 )
 
-def load_css():
-    with open("style.css") as f:
-        st.markdown(
-            f"<style>{f.read()}</style>",
-            unsafe_allow_html=True
-        )
+# def load_css():
+#     with open("style.css") as f:
+#         st.markdown(
+#             f"<style>{f.read()}</style>",
+#             unsafe_allow_html=True
+#         )
 
+# Loaded CSS
 load_css()
 
 # Database Connection
