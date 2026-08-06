@@ -1,8 +1,9 @@
 import sqlite3
 import pandas as pd
-
 conn = sqlite3.connect("brickviewdb")
 cursor = conn.cursor()
+
+'''
 
 """#############"""
 """# SQL Queries"""
@@ -273,7 +274,7 @@ ORDER BY SaleMonth
 """, conn
 )
 
-print(sql_17)
+# print(sql_17)
 
 # 18. Which properties are currently unsold?
 sql_18 = pd.read_sql(
@@ -503,3 +504,15 @@ ORDER BY AverageDaysToClose DESC
 )
 
 # print(sql_30)
+'''
+
+# sql_31 = pd.read_sql("SELECT * FROM Listings", conn)
+# print(sql_31)
+
+cursor.execute("DELETE FROM listings WHERE Listing_ID = ''")
+
+conn.commit()
+
+print("Record(s) deleted successfully.")
+
+conn.close()

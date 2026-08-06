@@ -7,18 +7,21 @@ def showfilter():
     property_type_df = run_query("SELECT DISTINCT Property_Type FROM listings")
     property_types = property_type_df["Property_Type"].tolist()
 
-    # Filters
+    # Filters // Fetch unique city for city filter
     city_df = run_query("SELECT DISTINCT City FROM listings")
     cities = city_df["City"].tolist()
 
+    # Retrieve min and max for the price slider
     price_df = run_query("SELECT MIN(Price) AS MinPrice, MAX(Price) AS MaxPrice FROM listings")
     MinPrice = price_df.iloc[0]['MinPrice']
     MaxPrice = price_df.iloc[0]['MaxPrice']
-    
+
+    # Retrieve min and max for the price slider
     date_df = run_query("SELECT MIN(Date_Listed) AS MinDate, MAX(Date_Listed) AS MaxDate FROM listings")
     MinDate = date_df.iloc[0]["MinDate"]
     MaxDate = date_df.iloc[0]["MaxDate"]
 
+    # Agents dropdown
     agent_df = run_query("""
     SELECT
         Agent_ID,
